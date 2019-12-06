@@ -34,22 +34,37 @@ input[type="text"]{
     padding: 10px 10px;
 }
 
-input[type="submit"]{
+
+button{
     height: 50px;
-    width: 100px;
+    width: 20%;
     background-color: dodgerblue;
     color: #ffffff;
     font-family: "Nunito",sans-serif;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 16px;
     border: none;
     border-radius: 2px;
 }
+button:hover{
+        height: 50px;
+        width: 20%;
+        background-color: mediumblue;
+        color: #ffffff;
+        font-family: "Nunito",sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        border: none;
+        border-radius: 2px;
+        cursor:pointer;
+    
+}
 
-.display{
+.current{
     text-align: center;
     padding: 80px;
 }
+
 strong{
    
     text-align:center;
@@ -60,4 +75,24 @@ strong{
 span{
     font-size: 18px;
     color: #000;
+}
+
+table{
+    width: 50%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+th{
+    font-size: 20px;
+    padding:10px;
+    border: 1px solid black;
+    background-color: deepskyblue;
+}
+td{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
 }
