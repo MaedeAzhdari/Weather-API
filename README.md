@@ -1,12 +1,19 @@
 # Weather-API
-Implementation of weather api - Internet Engineering project at Shariati Technical College - Maedeh Azhdari & Mahshad IzadParast
+Implementation of weather api - Internet Engineering project at Shariati Technical College 
+<br/>
+Maedeh Azhdari & Mahshad IzadParast
 
 
 openweathermap.org
+<br/>
 متدهای به کار گرفته شده در این پروژه به شرح ذیل می باشد :
+<br/>
 Current weather API
+<br/>
 5 days/3 hour forecast API
+<br/>
 Weather maps 1.0
+<br/>
 UV index
 
 
